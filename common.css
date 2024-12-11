@@ -1,0 +1,51 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main-content {
+    margin: 0 auto;
+    padding: 0 10px;
+    word-wrap: break-word;
+}
+
+.main-content h3 {
+    color: #159957;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media (min-width: 960px) {
+    .left-side {
+        position: fixed;
+        width: 25%;
+        height: 95%;
+        border-right: 1px solid #159957;
+    }
+
+    .about-me {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 1.5rem;
+    }
+
+    .right-side {
+        margin-left: 28%;
+    }
+}
+
+.badge {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+li {
+    line-height: 30px
+}
