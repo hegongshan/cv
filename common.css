@@ -20,7 +20,8 @@ body {
     .left-side {
         position: fixed;
         width: 25%;
-        left: 0;
+        left: 5px;
+        right: 5px;
         height: 98%;
         border-right: 1px solid #159957;
 
@@ -31,12 +32,12 @@ body {
     }
 
     .about-me {
-        line-height: 1.5rem;
+        line-height: 2rem;
     }
 
     .right-side {
         position: absolute;
-        left: 28%;
+        left: 27%;
     }
 }
 
@@ -44,7 +45,8 @@ body {
     background-color: black;
     border: 1px solid white;
     color: white;
-    padding: 3px;
+    padding: .2em .6em;
+    border-radius: 10rem;
 }
 
 .text-center {
@@ -52,5 +54,9 @@ body {
 }
 
 li {
-    line-height: 30px
+    line-height: 25px
+}
+
+.red {
+    color: #BB2222;
 }
