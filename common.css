@@ -60,3 +60,7 @@ li {
 .red {
     color: #BB2222;
 }
+
+.sub-ol {
+    list-style-type: circle;
+}
