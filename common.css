@@ -27,12 +27,8 @@ body {
 
         display: flex;
         flex-direction: column;
-        justify-content: center;/* 垂直居中 */
+        justify-content: center; /* 垂直居中 */
         align-items: center; /* 水平居中 */
-    }
-
-    .about-me {
-        line-height: 2rem;
     }
 
     .right-side {
@@ -41,11 +37,15 @@ body {
     }
 }
 
+.about-me {
+    line-height: 1.5rem;
+}
+
 .badge {
     background-color: black;
     border: 1px solid white;
     color: white;
-    padding: .2em .6em;
+    padding: .1em .6em;
     border-radius: 10rem;
 }
 
