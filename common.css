@@ -53,6 +53,11 @@ body {
     text-align: center;
 }
 
+.time {
+    width: 140px;
+    display: inline-block;
+}
+
 li {
     line-height: 25px
 }
