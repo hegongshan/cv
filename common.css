@@ -66,6 +66,11 @@ li {
     color: #BB2222;
 }
 
+.type {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .sub-ol {
     list-style-type: circle;
 }
