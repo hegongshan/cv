@@ -62,8 +62,9 @@ li {
     line-height: 25px
 }
 
-.red {
+.highlight {
     color: #BB2222;
+    font-weight: bold;
 }
 
 .type {
@@ -73,4 +74,26 @@ li {
 
 .sub-ol {
     list-style-type: circle;
+}
+
+.hide {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.line {
+    display: block;
+}
+
+.not-start {
+    color: gray;
 }
