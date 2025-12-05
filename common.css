@@ -84,6 +84,10 @@ table {
     border-collapse: collapse;
 }
 
+caption {
+    font-weight: bold;
+}
+
 th, td {
     border: 1px solid gray;
     padding: 0 5px;
